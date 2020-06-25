@@ -1,4 +1,4 @@
-var textAnim = () => {
+var textAnim = function(){
   var c3 = document.querySelector('.c3');
   var c4 = document.querySelector('.c4');
   var c3Position = c3.getBoundingClientRect().top;
